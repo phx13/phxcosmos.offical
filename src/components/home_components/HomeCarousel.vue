@@ -29,42 +29,42 @@
     <div class="carousel-inner">
       <div class="carousel-item">
         <div class="vh-100 d-flex align-items-center w-100">
-          <div class="bg-overlay"></div>
+          <div class="carousel-overlay"></div>
           <img
             src="../../assets/images/home-carousel-1.jpg"
-            class="d-block w-100"
+            class="vh-100 d-block w-100"
             alt="home-carousel-1.jpg"
           />
-          <div class="carousel-caption d-none d-md-block">
-            <h1 class="heading text-white">行业深耕</h1>
+          <div class="carousel-caption d-block">
+            <h1 class="carousel-heading text-white">行业深耕</h1>
             <p>创造有感情的智能终端，有能力的互联平台，有深度的数据分析。</p>
           </div>
         </div>
       </div>
       <div class="carousel-item active">
         <div class="vh-100 d-flex align-items-center w-100">
-          <div class="bg-overlay"></div>
+          <div class="carousel-overlay"></div>
           <img
             src="../../assets/images/home-carousel-2.jpg"
-            class="d-block w-100"
+            class="vh-100 d-block w-100"
             alt="..."
           />
-          <div class="carousel-caption d-none d-md-block">
-            <h1 class="heading text-white">寰凤PHXCOSMOS</h1>
+          <div class="carousel-caption d-block">
+            <h1 class="carousel-heading text-white">寰凤PHXCOSMOS</h1>
             <p>打造未来的物联网交互体系，让事物变得更有温度。</p>
           </div>
         </div>
       </div>
       <div class="carousel-item">
         <div class="vh-100 d-flex align-items-center w-100">
-          <div class="bg-overlay"></div>
+          <div class="carousel-overlay"></div>
           <img
             src="../../assets/images/home-carousel-3.jpg"
-            class="d-block w-100"
+            class="vh-100 d-block w-100"
             alt="..."
           />
-          <div class="carousel-caption d-none d-md-block">
-            <h1 class="heading text-white">未来愿景</h1>
+          <div class="carousel-caption d-block">
+            <h1 class="carousel-heading text-white">未来愿景</h1>
             <p>助力产业数字化转型，提升资源配置效率，实现绿色复苏碳中和。</p>
           </div>
         </div>
@@ -98,7 +98,7 @@ export default {
 </script>
 
 <style scoped>
-.bg-overlay {
+.carousel-overlay {
   background-color: rgba(37, 41, 52, 0.7);
   position: absolute;
   top: 0;
@@ -113,7 +113,7 @@ export default {
   bottom: initial;
 }
 
-.heading {
+.carousel-heading {
   font-size: 42px;
   letter-spacing: 1px;
 }

@@ -1,16 +1,23 @@
 <template>
-  <header-navbar/>
-  <home-carousel/>
+  <header-navbar />
+  <home-carousel />
+  <home-introduction />
+  <home-products />
 </template>
 
 <script>
-import HeaderNavbar from "../components/public_components/HeaderNavbar"
-import HomeCarousel from "../components/home_components/HomeCarousel"
+import HeaderNavbar from "../components/public_components/HeaderNavbar";
+import HomeCarousel from "../components/home_components/HomeCarousel";
+import HomeIntroduction from "../components/home_components/HomeIntroduction";
+import HomeProducts from "../components/home_components/HomeProducts";
 
 export default {
-  name: 'Home',
+  name: "Home",
   components: {
-    HeaderNavbar,HomeCarousel
-  }
-}
+    HeaderNavbar,
+    HomeCarousel,
+    HomeIntroduction,
+    HomeProducts,
+  },
+};
 </script>

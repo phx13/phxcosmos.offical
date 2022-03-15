@@ -1,0 +1,46 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.5;
+    font-weight: 600;
+}
+
+.btn-custom {
+    background-color: #3faf90 !important;
+    border: 1px solid #3faf90 !important;
+    color: #ffffff !important;
+}
+
+.btn {
+    padding: 9px 27px;
+    outline: none;
+    text-decoration: none;
+    font-size: 13px;
+    letter-spacing: 0.7px;
+    transition: all 0.3s;
+    font-weight: 400;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+p {
+    line-height: 1.5;
+}
+
+.router-link-active {
+    border-bottom: 2px solid #3faf90;
+}
+
+.router-link-exact-active {
+    border-bottom: 2px solid #3faf90;
+}

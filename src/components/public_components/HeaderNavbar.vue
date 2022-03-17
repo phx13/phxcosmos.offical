@@ -5,7 +5,7 @@
         ><img
           alt="logo"
           src="../../assets/logo-removebg.png"
-          style="height: 50px"
+          style="height: 40px"
       /></a>
       <button
         class="navbar-toggler"
@@ -27,28 +27,13 @@
             <router-link to="/" class="nav-link">首页</router-link>
           </li>
           <li class="nav-item">
-            <router-link to="/products" class="nav-link">产品中心</router-link>
-          </li>
-          <li class="nav-item dropdown">
-            <a
-              class="nav-link dropdown-toggle"
-              href="#"
-              id="navbarDropdown"
-              role="button"
-              data-bs-toggle="dropdown"
-              aria-expanded="false"
-            >
-              Dropdown
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li><hr class="dropdown-divider" /></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
+            <router-link to="/about" class="nav-link">关于我们</router-link>
           </li>
           <li class="nav-item">
-            <a class="nav-link disabled">Disabled</a>
+            <router-link to="/product" class="nav-link">产品中心</router-link>
+          </li>
+          <li class="nav-item">
+            <router-link to="/solution" class="nav-link">解决方案</router-link>
           </li>
         </ul>
       </div>

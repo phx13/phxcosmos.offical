@@ -38,9 +38,75 @@ p {
 }
 
 .router-link-active {
-    border-bottom: 2px solid #3faf90;
+    font-style: oblique;
 }
 
 .router-link-exact-active {
-    border-bottom: 2px solid #3faf90;
+    font-style: oblique;
+}
+
+.section {
+    padding: 100px 0;
+    position: relative;
+}
+
+.section-bg-light {
+    background-color: #f8f9fa !important;
+}
+
+.footer {
+    padding: 60px 0;
+    position: relative;
+}
+
+.footer .footer-head .title {
+    color: #e9ecef;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.footer .footer-news .form-control {
+    background-color: #313b48;
+    border: 1px solid #495057;
+    color: #f8f9fa;
+}
+
+.footer .footer-news .form-control:focus {
+    box-shadow: none;
+}
+
+.footer .footer-news.foot-white .form-control {
+    color: #adb5bd;
+}
+
+.footer .footer-news input::placeholder {
+    color: #adb5bd;
+}
+
+.footer .text-foot {
+    color: #adb5bd;
+}
+
+.footer .footer-item li {
+    margin-bottom: 10px;
+}
+
+.footer .footer-item li a {
+    color: #adb5bd;
+}
+
+.footer .footer-item li a:hover {
+    color: #3FAF90 !important;
+}
+
+.footer .footer-item li:last-child {
+    margin-bottom: 0;
+}
+
+.footer.footer-bar {
+    border-top: 1px solid #495057;
+}
+
+.bg-dark {
+    background-color: #35404e !important;
 }

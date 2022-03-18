@@ -1,5 +1,5 @@
 <template>
-  <section class="section section-bg-light">
+  <section class="section">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-12">
@@ -92,10 +92,4 @@ export default {
 </script>
 
 <style scoped>
-.section-title .title {
-  letter-spacing: 0.5px;
-  font-size: 24px;
-}
-
-
 </style>

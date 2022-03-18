@@ -4,7 +4,7 @@
       <a class="navbar-brand" href="/"
         ><img
           alt="logo"
-          src="../../assets/logo-removebg.png"
+          src="../../assets/logo.jpg"
           style="height: 40px"
       /></a>
       <button

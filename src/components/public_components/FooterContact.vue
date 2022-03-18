@@ -4,29 +4,10 @@
       <!--Footer Info -->
       <div class="row footer-info">
         <div class="col-lg-4 col-md-12">
-          <img src="../../assets/logo-removebg.png" alt="logo" height="40" />
+          <img src="../../assets/logo.png" alt="logo" height="40" />
           <p class="text-foot mt-4">
             寰凤PHXCOSMOS，您的物联网解决方案合作伙伴。
           </p>
-          <div>
-            <ul class="list-unstyled social-icon social mt-4 mb-0">
-              <li class="list-inline-item">
-                <a href="javascript:void(0)" class="rounded"
-                  ><i class="fa fa-weixin text-foot" aria-hidden="true"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="javascript:void(0)" class="rounded"
-                  ><i class="fa fa-weibo text-foot" aria-hidden="true"></i
-                ></a>
-              </li>
-              <li class="list-inline-item">
-                <a href="javascript:void(0)" class="rounded"
-                  ><i class="fa fa-qq text-foot" aria-hidden="true"></i
-                ></a>
-              </li>
-            </ul>
-          </div>
         </div>
         <div class="col-lg-2 col-md-4 mt-4 mt-lg-0 pt-2 pt-lg-0">
           <div class="footer-head">
@@ -79,6 +60,25 @@
         <div class="col-lg-3 col-md-4 mt-4 mt-lg-0 pt-2 pt-lg-0">
           <div class="footer-head">
             <h6 class="title mb-0">联系我们</h6>
+          </div>
+          <div>
+            <ul class="list-unstyled social-icon social mt-4 mb-0">
+              <li class="list-inline-item">
+                <a href="javascript:void(0)" class="rounded"
+                  ><i class="fa fa-weixin text-foot" aria-hidden="true"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="javascript:void(0)" class="rounded"
+                  ><i class="fa fa-weibo text-foot" aria-hidden="true"></i
+                ></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="javascript:void(0)" class="rounded"
+                  ><i class="fa fa-qq text-foot" aria-hidden="true"></i
+                ></a>
+              </li>
+            </ul>
           </div>
           <div class="footer-news mt-4">
             <p class="text-foot">

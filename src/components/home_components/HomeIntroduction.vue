@@ -1,5 +1,5 @@
 <template>
-  <section class="section">
+  <section class="section section-bg-light">
     <div class="container">
       <div class="row align-items-center">
         <div class="col-lg-5 col-md-5">
@@ -44,13 +44,4 @@ export default {
 </script>
 
 <style scoped>
-.section-title .title {
-  letter-spacing: 0.5px;
-  font-size: 24px;
-}
-
-.section {
-  padding: 100px 0;
-  position: relative;
-}
 </style>

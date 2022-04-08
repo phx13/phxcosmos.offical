@@ -2,10 +2,7 @@
   <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
     <div class="container">
       <a class="navbar-brand" href="/"
-        ><img
-          alt="logo"
-          src="../../assets/logo.jpg"
-          style="height: 40px"
+        ><img alt="logo" src="../../assets/logo.jpg" style="height: 40px"
       /></a>
       <button
         class="navbar-toggler"
@@ -29,8 +26,22 @@
           <li class="nav-item">
             <router-link to="/about" class="nav-link">关于我们</router-link>
           </li>
-          <li class="nav-item">
-            <router-link to="/product" class="nav-link">产品中心</router-link>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              产品中心
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><router-link class="dropdown-item nav-link" to="/product/locate">高精度定位</router-link></li>
+              <li><router-link class="dropdown-item nav-link" to="/product/terminal">高感知终端</router-link></li>
+              <li><router-link class="dropdown-item nav-link" to="/product/platform">高可用平台</router-link></li>
+            </ul>
           </li>
           <li class="nav-item">
             <router-link to="/solution" class="nav-link">解决方案</router-link>
@@ -43,7 +54,7 @@
 
 <script>
 export default {
-  name: "HeaderNavbar"
+  name: "HeaderNavbar",
 };
 </script>
 

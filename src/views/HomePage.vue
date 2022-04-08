@@ -18,7 +18,7 @@ import HomePartner from "../components/home_components/HomePartner";
 import FooterContact from "../components/public_components/FooterContact";
 
 export default {
-  name: "Home",
+  name: "HomePage",
   components: {
     HeaderNavbar,
     HomeCarousel,

@@ -1,30 +1,39 @@
-import { createRouter, createWebHistory } from 'vue-router'
-import Home from '../views/Home'
-import Product from '../views/Product'
-import About from '../views/About'
-import Solution from '../views/Solution'
+import {
+  createRouter,
+  createWebHistory
+} from 'vue-router'
+import HomePage from '../views/HomePage'
+import AboutPage from '../views/AboutPage'
+import ProductLocatePage from '../views/Product/ProductLocatePage'
+import ProductTerminalPage from '../views/Product/ProductTerminalPage'
+import ProductPlatformPage from '../views/Product/ProductPlatformPage'
 
-const routes = [
-  {
+
+const routes = [{
     path: '/',
-    name: 'Home',
-    component: Home
-  },
-  {
-    path: '/product',
-    name: 'Product',
-    component: Product
+    name: 'HomePage',
+    component: HomePage
   },
   {
     path: '/about',
-    name: 'About',
-    component: About
+    name: 'AboutPage',
+    component: AboutPage
   },
   {
-    path: '/solution',
-    name: 'Solution',
-    component: Solution
-  }
+    path: '/product/locate',
+    name: 'ProductLocatePage',
+    component: ProductLocatePage
+  }, 
+  {
+    path: '/product/terminal',
+    name: 'ProductTerminalPage',
+    component: ProductTerminalPage
+  }, 
+  {
+    path: '/product/platform',
+    name: 'ProductPlatformPage',
+    component: ProductPlatformPage
+  },
 ]
 
 const router = createRouter({

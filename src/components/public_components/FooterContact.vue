@@ -87,11 +87,11 @@
             </p>
             <p class="text-foot">
               <i class="fa fa-envelope" aria-hidden="true"></i>
-              945871257@qq.com
+              info@phxcosmos.com
             </p>
             <p class="text-foot">
               <i class="fa fa-location-arrow" aria-hidden="true"></i>
-              北京市朝阳区富尔大厦11层1102
+              北京市朝阳区富尔大厦1102A
             </p>
           </div>
         </div>
@@ -105,8 +105,11 @@
         <div class="col-lg-12">
           <div class="text-center">
             <p class="text-foot mb-0">
-              &copy; 2022 北京寰凤科技有限公司版权所有
+              &copy; 2022 北京寰凤科技有限公司 版权所有
             </p>
+            <a class="text-foot mb-0" href="https://beian.miit.gov.cn/">
+              京ICP备2022009939号-1
+            </a>
           </div>
         </div>
       </div>

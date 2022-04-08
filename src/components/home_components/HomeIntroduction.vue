@@ -27,10 +27,16 @@
               “一低” 即 <b>“低成本解决方案”</b> 横向服务体系。
             </p>
             <p class="text-muted">
-              通过纵向的产品研发和横向的方案咨询，多维地合力满足用户从再工业化到产业数字化再到资源合理化的全面需求，
+              通过纵向的产品研发和横向的方案服务，多维地合力满足用户从再工业化到产业数字化再到资源合理化的全面需求，
               助力用户实现绿色未来碳中和。
             </p>
           </div>
+          <div class="col-md-12 mt-4 pt-2">
+          <div class="text-center">
+            <router-link to="/about" class="btn btn-custom"
+              >关于我们 <i class="fa fa-angle-right" aria-hidden="true"></i></router-link>
+          </div>
+        </div>
         </div>
       </div>
     </div>

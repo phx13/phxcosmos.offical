@@ -10,7 +10,7 @@
           </p>
         </div>
         <div class="col-lg-2 col-md-4 mt-4 mt-lg-0 pt-2 pt-lg-0">
-          <div class="footer-head">
+          <!-- <div class="footer-head">
             <h6 class="title mb-0">网站导航</h6>
           </div>
           <div class="footer-item mt-4">
@@ -40,10 +40,10 @@
                 >
               </li>
             </ul>
-          </div>
+          </div> -->
         </div>
-        <div class="col-lg-3 col-md-4 mt-4 mt-lg-0 pt-2 pt-lg-0">
-          <div class="footer-head">
+        <div class="col-lg-2 col-md-4 mt-4 mt-lg-0 pt-2 pt-lg-0">
+          <!-- <div class="footer-head">
             <h6 class="title mb-0">资源中心</h6>
           </div>
           <div class="footer-item mt-4">
@@ -55,13 +55,13 @@
                 >
               </li>
             </ul>
-          </div>
+          </div> -->
         </div>
-        <div class="col-lg-3 col-md-4 mt-4 mt-lg-0 pt-2 pt-lg-0">
+        <div class="col-lg-4 col-md-4 mt-4 mt-lg-0 pt-2 pt-lg-0">
           <div class="footer-head">
             <h6 class="title mb-0">联系我们</h6>
           </div>
-          <div>
+          <!-- <div>
             <ul class="list-unstyled social-icon social mt-4 mb-0">
               <li class="list-inline-item">
                 <a href="javascript:void(0)" class="rounded"
@@ -79,11 +79,11 @@
                 ></a>
               </li>
             </ul>
-          </div>
+          </div> -->
           <div class="footer-news mt-4">
             <p class="text-foot">
               <i class="fa fa-phone" aria-hidden="true"></i>
-              18910652328
+              18910652328 郭经理
             </p>
             <p class="text-foot">
               <i class="fa fa-envelope" aria-hidden="true"></i>
@@ -91,7 +91,7 @@
             </p>
             <p class="text-foot">
               <i class="fa fa-location-arrow" aria-hidden="true"></i>
-              北京市朝阳区富尔大厦1102A
+              北京市朝阳区东三环中路9号富尔大厦1102A
             </p>
           </div>
         </div>

@@ -41,6 +41,18 @@ export default {
       case "ProductPlatformPage":
         this.titleName = "产品中心 - 高可用平台";
         break;
+      case "SolutionIndustryPage":
+        this.titleName = "解决方案 - 智慧工业";
+        break;
+      case "SolutionMedicalPage":
+        this.titleName = "解决方案 - 智慧医疗";
+        break;
+      case "SolutionJudicialPage":
+        this.titleName = "解决方案 - 智慧司法";
+        break;
+      case "SolutionCommercePage":
+        this.titleName = "解决方案 - 智慧商超";
+        break;
       default:
         break;
     }

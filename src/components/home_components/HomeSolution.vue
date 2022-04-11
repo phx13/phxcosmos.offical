@@ -1,6 +1,7 @@
 <template>
   <section class="section section-bg-light">
     <div class="container">
+      <!-- 标题 -->
       <div class="row justify-content-center">
         <div class="col-12">
           <div class="section-title mb-4 pb-2 text-center">
@@ -10,6 +11,7 @@
       </div>
 
       <div class="row">
+        <!-- 智慧工业解决方案 -->
         <div class="col-lg-3 col-md-6 mt-4 pt-2">
           <div
             class="
@@ -31,15 +33,17 @@
             <div class="team-overlay">
               <div class="team-content text-center">
                 <div class="member-info text-center">
-                  <h5 class="text-white mb-0">智慧工业</h5>
-                  <a href="/solution/industry"
-                    ><p class="text-white mt-3">解决方案</p></a
-                  >
+                  <router-link to="/solution/industry">
+                    <h5 class="text-white mb-0">智慧工业</h5>
+                  </router-link>
                 </div>
               </div>
             </div>
           </div>
         </div>
+        <!-- 智慧工业解决方案end -->
+
+        <!-- 智慧医疗解决方案 -->
         <div class="col-lg-3 col-md-6 mt-4 pt-2">
           <div
             class="
@@ -61,15 +65,17 @@
             <div class="team-overlay">
               <div class="team-content text-center">
                 <div class="member-info text-center">
-                  <h5 class="text-white mb-0">智慧医疗</h5>
-                  <a href="/solution/medical"
-                    ><p class="text-white mt-3">解决方案</p></a
-                  >
+                  <router-link to="/solution/medical">
+                    <h5 class="text-white mb-0">智慧医疗</h5>
+                  </router-link>
                 </div>
               </div>
             </div>
           </div>
         </div>
+        <!-- 智慧医疗解决方案end -->
+
+        <!-- 智慧司法解决方案 -->
         <div class="col-lg-3 col-md-6 mt-4 pt-2">
           <div
             class="
@@ -91,15 +97,17 @@
             <div class="team-overlay">
               <div class="team-content text-center">
                 <div class="member-info text-center">
-                  <h5 class="text-white mb-0">智慧司法</h5>
-                  <a href="/solution/judicial"
-                    ><p class="text-white mt-3">解决方案</p></a
-                  >
+                  <router-link to="/solution/judicial">
+                    <h5 class="text-white mb-0">智慧司法</h5>
+                  </router-link>
                 </div>
               </div>
             </div>
           </div>
         </div>
+        <!-- 智慧司法解决方案end -->
+
+        <!-- 智慧商超解决方案 -->
         <div class="col-lg-3 col-md-6 mt-4 pt-2">
           <div
             class="
@@ -121,24 +129,15 @@
             <div class="team-overlay">
               <div class="team-content text-center">
                 <div class="member-info text-center">
-                  <h5 class="text-white mb-0">智慧商超</h5>
-                  <a href="/solution/commerce"
-                    ><p class="text-white mt-3">解决方案</p></a
-                  >
+                  <router-link to="/solution/commerce">
+                    <h5 class="text-white mb-0">智慧商超</h5>
+                  </router-link>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="col-md-12 mt-4 pt-2">
-          <div class="text-center">
-            <router-link to="/solution" class="btn btn-custom"
-              >查看全部方案 <i class="fa fa-angle-right" aria-hidden="true"></i
-            ></router-link>
-          </div>
-        </div>
+        <!-- 智慧商超解决方案end -->
       </div>
     </div>
   </section>

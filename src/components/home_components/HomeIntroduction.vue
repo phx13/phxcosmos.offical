@@ -31,12 +31,6 @@
               助力用户实现绿色未来碳中和。
             </p>
           </div>
-          <div class="col-md-12 mt-4 pt-2">
-          <div class="text-center">
-            <router-link to="/about" class="btn btn-custom"
-              >关于我们 <i class="fa fa-angle-right" aria-hidden="true"></i></router-link>
-          </div>
-        </div>
         </div>
       </div>
     </div>

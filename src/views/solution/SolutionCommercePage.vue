@@ -1,22 +1,22 @@
 <template>
   <header-navbar />
   <page-title />
-  <product-terminal />
+  <solution-commerce />
   <footer-contact />
 </template>
 
 <script>
 import HeaderNavbar from "../../components/public_components/HeaderNavbar";
 import PageTitle from "../../components/public_components/PageTitle";
-import ProductTerminal from "../../components/product_components/ProductTerminal";
+import SolutionCommerce from "../../components/solution_components/SolutionCommerce";
 import FooterContact from "../../components/public_components/FooterContact";
 
 export default {
-  name: "ProductTerminalPage",
+  name: "SolutionCommercePage",
   components: {
     HeaderNavbar,
     PageTitle,
-    ProductTerminal,
+    SolutionCommerce,
     FooterContact,
   },
 };

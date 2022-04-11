@@ -15,14 +15,16 @@
         <!-- 高精度定位 -->
         <div class="col">
           <div class="card h-100">
-            <a href="#">
+            <router-link to="/product/locate">
               <img
                 src="../../assets/images/home-product-1.jpg"
                 class="card-img-top"
                 alt="home-product-1.jpg"
-            /></a>
+            /></router-link>
             <div class="card-body text-center">
-              <h5 class="card-title text-dark">高精度定位</h5>
+              <router-link to="/product/locate">
+                <h5 class="card-title text-dark">高精度定位</h5>
+              </router-link>
               <p class="text-muted">
                 在物联网世界中，位置是一个不可或缺的基础信息。
               </p>
@@ -32,17 +34,21 @@
             </div>
           </div>
         </div>
+        <!-- 高精度定位end -->
+
         <!-- 高感知终端 -->
         <div class="col">
           <div class="card h-100">
-            <a href="#">
+            <router-link to="/product/terminal">
               <img
                 src="../../assets/images/home-product-2.jpg"
                 class="card-img-top"
                 alt="home-product-2.jpg"
-            /></a>
+            /></router-link>
             <div class="card-body text-center">
-              <h5 class="card-title text-dark">高感知终端</h5>
+              <router-link to="/product/terminal">
+                <h5 class="card-title text-dark">高感知终端</h5>
+              </router-link>
               <p class="text-muted">
                 高感知终端作为传感网络层和传输网络层的媒介，是物联网世界的关键设备。
               </p>
@@ -52,17 +58,21 @@
             </div>
           </div>
         </div>
+        <!-- 高感知终端end -->
+
         <!-- 高可用平台 -->
         <div class="col">
           <div class="card h-100">
-            <a href="#"
-              ><img
+            <router-link to="/product/platform">
+              <img
                 src="../../assets/images/home-product-3.jpg"
                 class="card-img-top"
                 alt="home-product-3.jpg"
-            /></a>
+            /></router-link>
             <div class="card-body text-center">
-              <h5 class="card-title text-dark">高可用平台</h5>
+              <router-link to="/product/platform">
+                <h5 class="card-title text-dark">高可用平台</h5>
+              </router-link>
               <p class="text-muted">
                 高可用平台覆盖管理应用运行状态，为用户打造可靠的物联网平台。
               </p>
@@ -72,14 +82,7 @@
             </div>
           </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="col-md-12 mt-4 pt-2">
-          <div class="text-center">
-            <router-link to="/product" class="btn btn-custom"
-              >查看全部产品 <i class="fa fa-angle-right" aria-hidden="true"></i></router-link>
-          </div>
-        </div>
+        <!-- 高可用平台end -->
       </div>
     </div>
   </section>
